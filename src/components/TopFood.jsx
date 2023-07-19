@@ -69,8 +69,8 @@ function TopFood() {
       naturalSlideHeight={125} 
       totalSlides={recipe && recipe.length} 
       visibleSlides={1} 
-      // isPlaying={true}                                            
-      //  interval={5000}
+      isPlaying={true}                                            
+       interval={5000}
       >
         <Slider className="grid grid-cols-2 lg:grid-cols-3 w-[100%] lg:w-[50%]   lg:mx-[25%]">
           {recipe && recipe.map((rec) => (
